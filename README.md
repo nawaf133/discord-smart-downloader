@@ -31,3 +31,56 @@
 **Example usage:**
 ```bash
 /download url:https://example.com/video quality:best
+
+
+⚙️ Installation
+
+Clone the repository:
+
+git clone https://github.com/nawaf133/discord-smart-downloader.git
+cd discord-smart-downloader
+
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+
+Create a .env file in the project root:
+
+DISCORD_TOKEN=YOUR_BOT_TOKEN_HERE
+
+
+Run the bot:
+
+python bot.py
+
+
+💡 Make sure Python 3.9+ and FFmpeg are installed on your system for full functionality.
+
+🖥 Supported Platforms
+
+YouTube
+
+TikTok
+
+Instagram
+
+Twitter (X)
+
+Any platform supported by yt-dlp
+
+🧾 Ownership & License
+
+Developed and maintained by @_I42
+Licensed under the MIT License – free to use and modify, but original credit must remain.
+
+🎯 Notes
+
+Users must have DMs enabled to receive downloads.
+
+Large files may take longer depending on platform and network speed.
+
+All downloads are automatically deleted after sending to prevent storage issues.
+
+Made with ❤️ for simple, efficient, and practical video downloading on Discord.
